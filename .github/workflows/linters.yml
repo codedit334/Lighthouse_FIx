@@ -55,7 +55,7 @@ jobs:
         with:
           node-version: "12.x"
       - name: Setup html-webpack-plugin
-          run: |
+        run: |
            npm install html-webpack-plugin
       - name: Setup ESLint
         run: |
